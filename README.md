@@ -3,6 +3,7 @@
 
 ISW-DIAMOND VEIN is a gaming macro pad designed primarily for playing Minecraft.
 
+[Build guide](doc/buildguide.md)
 
 ## Dependencies (KiCad)
 * [is-watering/isw-kbd-lib](https://github.com/is-watering/isw-kbd-lib)
