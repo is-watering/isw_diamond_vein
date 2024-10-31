@@ -1,0 +1,228 @@
+{
+  "manufacturer": "is-watering",
+  "keyboard_name": "ISW-DIAMOND VEIN",
+  "maintainer": "is-watering",
+  "bootloader": "rp2040",
+  "diode_direction": "COL2ROW",
+  "features": {
+    "bootmagic": false,
+    "command": false,
+    "console": false,
+    "extrakey": true,
+    "mousekey": true,
+    "backlight": false,
+    "rgblight": true,
+    "encoder": true,
+    "nkro": true
+  },
+  "matrix_pins": {
+    "rows": [
+      "GP29",
+      "GP28",
+      "GP27",
+      "GP26",
+      "GP15",
+      "GP14"
+    ],
+    "cols": [
+      "GP6",
+      "GP7",
+      "GP8",
+      "GP9"
+    ]
+  },
+  "ws2812": {
+    "pin": "GP0",
+    "driver": "vendor"
+  },
+  "encoder": {
+    "enabled": true,
+    "rotary": [
+      {
+        "pin_a": "GP4",
+        "pin_b": "GP5"
+      }
+    ]
+  },
+  "processor": "RP2040",
+  "url": "",
+  "usb": {
+    "device_version": "1.0.0",
+    "pid": "0x0005",
+    "vid": "0x2118"
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        {
+          "label": "Esc",
+          "matrix": [
+            0,
+            1
+          ],
+          "x": 0.5,
+          "y": 0
+        },
+        {
+          "label": "6",
+          "matrix": [
+            0,
+            2
+          ],
+          "x": 2.75,
+          "y": 1
+        },
+        {
+          "label": "Left Shift",
+          "matrix": [
+            1,
+            0
+          ],
+          "x": 0,
+          "y": 1
+        },
+        {
+          "label": "W",
+          "matrix": [
+            1,
+            1
+          ],
+          "x": 1,
+          "y": 1
+        },
+        {
+          "label": "A",
+          "matrix": [
+            2,
+            1
+          ],
+          "x": 0.5,
+          "y": 2
+        },
+        {
+          "label": "D",
+          "matrix": [
+            2,
+            2
+          ],
+          "x": 1.5,
+          "y": 2
+        },
+        {
+          "label": "Q",
+          "matrix": [
+            2,
+            3
+          ],
+          "x": 3.25,
+          "y": 2
+        },
+        {
+          "label": "1",
+          "matrix": [
+            3,
+            0
+          ],
+          "x": 0,
+          "y": 3
+        },
+        {
+          "label": "S",
+          "matrix": [
+            3,
+            1
+          ],
+          "x": 1,
+          "y": 3
+        },
+        {
+          "label": "E",
+          "matrix": [
+            3,
+            2
+          ],
+          "x": 2.75,
+          "y": 3
+        },
+        {
+          "label": "2",
+          "matrix": [
+            4,
+            1
+          ],
+          "x": 0.5,
+          "y": 4
+        },
+        {
+          "label": "3",
+          "matrix": [
+            4,
+            2
+          ],
+          "x": 2.25,
+          "y": 4
+        },
+        {
+          "label": "4",
+          "matrix": [
+            4,
+            3
+          ],
+          "x": 3.25,
+          "y": 4
+        },
+        {
+          "label": "Left Control",
+          "matrix": [
+            5,
+            0
+          ],
+          "x": 0,
+          "y": 5
+        },
+        {
+          "label": "5",
+          "matrix": [
+            5,
+            1
+          ],
+          "x": 1.75,
+          "y": 5
+        },
+        {
+          "label": "Spacebar",
+          "matrix": [
+            5,
+            2
+          ],
+          "x": 2.75,
+          "y": 5
+        }
+      ]
+    }
+  },
+  "matrix_size": {
+    "rows": 6,
+    "cols": 4
+  },
+  "rgblight": {
+    "led_count": 20,
+    "hue_steps": 8,
+    "saturation_steps": 8,
+    "brightness_steps": 8,
+    "max_brightness": 200,
+    "sleep": true,
+    "animations": {
+      "alternating": true,
+      "breathing": true,
+      "christmas": true,
+      "knight": true,
+      "rainbow_mood": true,
+      "rainbow_swirl": true,
+      "rgb_test": true,
+      "snake": true,
+      "static_gradient": true,
+      "twinkle": true
+    }
+  }
+}
