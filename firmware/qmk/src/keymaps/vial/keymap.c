@@ -19,9 +19,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Game_1 */
 	[_LAYER_0] = LAYOUT(
 		  KC_ESC,         RGB_TOG,
-		MO(1),  KC_W,
+		KC_LSFT,  KC_W,
 		  KC_A,    KC_D,            KC_BTN2,
-		KC_LSFT, KC_S,         KC_E,
+		MO(1), KC_S,         KC_E,
 		  XXXXXXX,        KC_BTN2,  KC_BTN1,
 		KC_LCTL,        KC_Z,  KC_SPC
 	),
@@ -50,30 +50,30 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_LAYER_3] = LAYOUT(
 		    KC_R,         RGB_TOG,
 		KC_N,  KC_Q,
-        XXXXXXX, KC_W,          XXXXXXX,
-		XXXXXXX, XXXXXXX,      KC_F1,
+        XXXXXXX, KC_W,          KC_F1,
+		XXXXXXX, XXXXXXX,      KC_F2,
 	      XXXXXXX,      KC_V,     KC_T,
 		XXXXXXX,      XXXXXXX, XXXXXXX
 	),
 
 /* Numpad */
 	[_LAYER_4] = LAYOUT(
-		    LSFT(KC_EQUAL),    RGB_TOG,
-		KC_MINUS, KC_9,
-        KC_8, KC_6,             KC_ENT,
-		KC_7,  KC_5,           KC_3,
-	      KC_4,         KC_2,     KC_DOT,
-		MO(5),          KC_1, KC_0
+		    KC_PPLS,      RGB_TOG,
+		KC_PMNS, KC_P9,
+        KC_P8, KC_P6,           KC_PENT,
+		KC_P7,  KC_P5,         KC_P3,
+	      KC_P4,         KC_P2,   KC_PDOT,
+		MO(5),          KC_P1, KC_P0
 	),
 
 /* Numpad_lower */
 	[_LAYER_5] = LAYOUT(
-		    LSFT(KC_8),   RGB_TOG,
-		KC_SLASH, KC_PGUP,
+		    KC_PAST,      RGB_TOG,
+		KC_PSLS, KC_PGUP,
         KC_UP, KC_RIGHT,        KC_BSPC,
-		KC_HOME, KC_EQUAL,     KC_PGDN,
+		KC_HOME, KC_PEQL,      KC_PGDN,
 	      KC_LEFT,      KC_DOWN,  KC_DELETE,
-		XXXXXXX,        LSFT(KC_END), KC_TAB
+		XXXXXXX,       LSFT(KC_END), KC_TAB
 	),
 
 /* Config */
