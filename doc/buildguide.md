@@ -9,7 +9,8 @@ Bottom plate             |1        | |
 SK6812 MINI-E leds       |20        | |
 1N4148W diodes           |16       | |
 MOSFET BSS138            |1        | |
-1kΩ resistors            |2        | |
+1kΩ resistor             |1        | |
+560Ω resistor            |1        | |
 Kailh hotswap sockets    |15       | |
 EC12 rotary encoder  |1    |Height 15mm or more recommended|
 FSS-41035-04 4P pinsocket |1    |[HIROSUGI NET](https://www.hirosugi-net.co.jp/shop/goods/goods.aspx?goods=24081), [Yushakobo](https://shop.yushakobo.jp/products/a1600ps-01-1)|
@@ -28,6 +29,7 @@ M2x10mm Knurled spacers   |4        |[Aliexpress](https://www.aliexpress.com/ite
 ### [Diodes](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-1n4148w.md)
 
 ### [MOSFET, Resistors](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-bss138.md)
+Solder a 1kΩ resistor to R1 and a 560Ω resistor to R2.
 
 ### [Hotswap sockets](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-cpg151101s11.md)
 
